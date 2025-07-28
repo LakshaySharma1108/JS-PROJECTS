@@ -1,0 +1,135 @@
+@font-face {
+    font-family: china;
+    src: url(./3856NeueMachina.woff2);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  
+  nav h1 {
+    font-size: 35px;
+  }
+  
+  .part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+  }
+  
+  .part2 h4 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  nav button {
+    padding: 8px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+  
+  .center {
+    height: 85%;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .center-part1, .center-part2 {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .center-part1 h1 {
+    font-size: 70px;
+    line-height: 1.2;
+    font-family: china;
+  }
+  
+  .center-part1 p {
+    margin-top: 50px;
+    font-size: 25px;
+  }
+  
+  .center-part1 button {
+    margin-top: 30px;
+    padding: 22px 40px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    background-color: #000;
+    color: aliceblue;
+  }
+  
+  .center-part2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .section1bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 110px;
+  }
+  
+  .section1bottom img {
+    height: 60px;
+    object-fit: contain;
+  }
+  
+  .section2 {
+    margin-top: 50px;
+  }
+  
+  .section2 .services {
+    padding: 40px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+  }
+  
+  .services h3 {
+    margin-top: 60px;
+    font-size: 40px;
+    font-weight: 500;
+    background-color: #9AE975;
+    padding: 8px 10px;
+    border-radius: 5px;
+  }
+  
+  .services p {
+    padding-top: 60px;
+    width: 40%;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
