@@ -48,7 +48,7 @@ function page1animation() {
     scrollTrigger: {
       trigger: ".services",
       scroller: "body",
-      markers: true, // set to false if not debugging
+      markers: false, // set to false if not debugging
       start: "top 60%",
       end: "top 0%",
       scrub: 2,
