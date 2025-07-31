@@ -1,0 +1,24 @@
+{
+  "name": "js-projects",
+  "version": "1.0.0",
+  "description": "JS‑PROJECTS\r A showcase of mini‑projects built with vanilla JavaScript, including animations, interactivity, UI filtering, Three.js 3D, and more.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LakshaySharma1108/JS-PROJECTS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LakshaySharma1108/JS-PROJECTS/issues"
+  },
+  "homepage": "https://github.com/LakshaySharma1108/JS-PROJECTS#readme",
+  "dependencies": {
+    "vite": "^7.0.6"
+  }
+}
